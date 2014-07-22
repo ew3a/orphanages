@@ -1,0 +1,124 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+      android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/blur_colors_of_lifewallpaper">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:overScrollMode="always"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="242dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.33"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/user_pink"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:minHeight="40dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="41dp"
+                     android:layout_height="match_parent"
+                    android:src="@drawable/camera_pink" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/fullname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mike_pink"
+                android:ems="10"
+                android:hint="Full name"
+                android:inputType="textPersonName"
+                android:minHeight="40dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/ic_action_red"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:minHeight="40dp" />
+
+                <EditText
+                    android:id="@+id/confirmPassword"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@android:color/white"
+                    android:drawableLeft="@drawable/confirm_password"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:minHeight="40dp" >
+
+                </EditText>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/white"
+                android:drawableLeft="@drawable/mail_pink"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:minHeight="40dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+ 
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="39dp" />
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/light_red"
+                android:text="Sign Up" />
+
+        </LinearLayout>
+            
+    </ScrollView>
+
+</LinearLayout>

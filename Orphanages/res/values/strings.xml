@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Orphanages</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="forgot_password">Forgot Password? <u>underline</u></string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_activity_register">Register</string>
+    <string-array name="cities">
+        <item>cairo</item>
+        <item>Alexandria</item>
+        <item >Giza</item>
+        <item>Shubra El-Kheima</item>
+        <item>Port Said</item>
+        <item>Suez</item>
+        <item >El-Mahalla El-Kubra</item>
+        <item >Al Mansoora</item>
+        <item>Luxor</item>
+        <item>Aswan</item>
+        <item >Asyout</item>
+        <item>Tanta</item>
+        <item >Ismailia</item>
+        <item>Fayyoum</item>
+        <item >Zagazig</item>
+        <item >Damiatta</item>
+        <item >Damanhour</item>
+        <item >El Menia</item>
+        <item >Beni Suef</item>
+        <item >Qena</item>
+        <item >Sohag</item>
+        <item >Sharm El Sheikh</item>
+        <item >Hurgada</item>
+        <item >Shibin El Kom</item>
+        <item >6th of October City</item>
+        <item >Shorook</item>
+        <item >Rehab</item>
+        <item >Banha</item>
+        <item >Marsa Matrouh</item>
+        <item >Matareya</item>
+    </string-array>
+
+</resources>
